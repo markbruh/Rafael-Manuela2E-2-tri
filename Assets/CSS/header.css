@@ -1,10 +1,10 @@
 body{
-    background-color: #EBECEE;
+    background-color: burlywood;
 }
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color:white;
     align-items: center;
 }
 .container{
@@ -19,4 +19,11 @@ body{
     background-image: url(../IMG/AluraBooks/Menu.svg);
     background-position: center;
     background-repeat: no-repeat;
+}
+.menu-lista{
+    display: none;
+}
+
+.menu-checkbox:checked ~ .menu-lista{
+    display: block;
 }
