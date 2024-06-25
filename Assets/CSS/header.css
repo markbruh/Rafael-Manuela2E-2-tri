@@ -1,5 +1,5 @@
 body{
-    background-color: burlywood;
+    background-color: rgb(180, 215, 218);
 }
 .cabecalho{
     display: flex;
@@ -27,3 +27,8 @@ body{
 .menu-checkbox:checked ~ .menu-lista{
     display: block;
 }
+.lista-item{
+    padding: 1em;
+    background-color: white;
+}
+
