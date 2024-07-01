@@ -22,6 +22,8 @@ body{
 }
 .menu-lista{
     display: none;
+    position:absolute;
+    width: 60vw;
 }
 
 .menu-checkbox:checked ~ .menu-lista{
