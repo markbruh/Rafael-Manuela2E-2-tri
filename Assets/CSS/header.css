@@ -12,6 +12,11 @@ body{
     padding: 0.5em;
    
 }
+
+.lista-titulo{
+    background-color: var(--branco);
+    color: var(--laranja);
+}
 .menu-hamburguer{
     width: 24px;
     height: 24px;
