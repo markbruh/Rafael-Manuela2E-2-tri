@@ -3,4 +3,8 @@
     --cor-de-fundo:rgb(180, 215, 218);
      --branco: white;
     --laranja: #eb9b00;
+    --azul-degrade:linear-gradient(97.56deg,#002f52 35.49%, #326589 165.37%);
+}
+body{
+    font-family: 'Poppins', sans-serif;
 }
