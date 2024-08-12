@@ -24,6 +24,7 @@
     width: 100%;
     background: url(../IMG/AluraBooks/Pesquisa.svg)no-repeat;
     background-position: 1em;
+    text-align: center;
 }
 
 .banner-pesquisa::placeholder{
