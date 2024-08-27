@@ -64,11 +64,6 @@
         <div class="swiper-slide"><img src="Assets/IMG/AluraBooks/Guia Front-end.png" alt=""></div>
         <div class="swiper-slide"><img src="Assets/IMG/AluraBooks/Portugol.png" alt=""></div>
       </div>
-
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -76,6 +71,11 @@
     const swiper = new Swiper('.swiper', {
   spaceVetween:10,
   slidesPerView: 3,
+  pagination: {
+el:"swiper-pagination",
+type:"bullets",
+
+  }
   
 });
   </script>
