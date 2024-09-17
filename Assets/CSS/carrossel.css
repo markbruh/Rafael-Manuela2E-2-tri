@@ -41,20 +41,16 @@
     font-weight:700;
     font-size:20px;
 }
-.botoes-ancora{
-background-color: var(--laranja);
-
-
-}
-.descricao-livro{
-font-weight:700;
-font-size:20px;
-}
 .descricao-texto{
 font-weight:700;
 font-size:14px;
-
-
+}
+.botao-ancora{
+    background-color: var(--laranja);
+    padding:1em 2.2em;
+    color:var(--branco);
+    font-weight:700;
+    text-decoration: none;
 }
 .descricao-livro{
     color: var(--azul);
@@ -62,5 +58,7 @@ font-size:14px;
     font-weight:700;
     margin: 0.5em 0;
 }
-
+.topicos{
+    display:flex;
+}
 
